@@ -26,6 +26,7 @@ DEBUG = int(environ.get('DEBUG', default=0))
 
 ALLOWED_HOSTS = environ.get('ALLOWED_HOSTS').split(' ')
 
+CSRF_TRUSTED_ORIGINS = ["http://localhost:1337"]
 
 # Application definition
 
